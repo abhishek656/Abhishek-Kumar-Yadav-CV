@@ -1,0 +1,1223 @@
+/* importing google ibm plex fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+
+/* color */
+:root
+{
+    --primary:#1a253f;
+    --dark:#151A33;
+    --secoundary:#2b55cc;
+    --info:#4d79f6;
+    --ternary: #848db3;
+    --pure: #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --footer: #212A4A;
+    --black : #060b1b;
+    --twitter : #4ac7ec;
+    --dribble: #ff5da0;
+    --success : #1ecab8;
+    --danger : #f1646c;
+    --dark-blue : #28367f;
+
+}
+
+/* #making reset  here * is use for universal operator */
+*{
+   margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+
+}
+
+/* making design in body  */
+body{
+    background-color:rgb(126, 121, 134);
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+   
+    /* rgb(126, 121, 134); */
+}
+
+/* //making all h1 to h6  margin 0 and line-hieght :1; */
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    line-height: 1;
+}
+/* .container{
+    width: 1140px;
+    margin : 0 auto;
+     
+
+} */
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* width: 1140x; */
+    margin : 0 auto;
+    background-color:black;
+    /* y-axies x-axies */
+    padding : 1.6rem 0; 
+    
+    /* border:2px solid red; */
+}
+
+.name a {
+    
+     text-transform: uppercase;   /* text-transform is use for changing style */
+     color: var(--pure);
+     font-size: 18px;
+     letter-spacing: 1px; /*letter spacing is use to make space between letter*/
+     font-weight: 500;
+     text-decoration: none;
+     list-style-type: none;
+    
+
+     
+
+
+
+
+}
+
+.name img{
+    margin: 0%;
+    padding: 0%;
+    height: 15px;
+}
+
+
+.print  a {
+    background-color: var(--secoundary);
+    letter-spacing: 1px;
+     border:0;
+    padding: 4px 15px;
+    color: var(--pure);
+    font-size: 18px;
+    font-weight: 500;
+    
+   
+    border-radius: 4px; 
+    cursor: pointer;
+    
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+                                        /* ---------------------------nav bar design got overp ------------------- */
+
+ 
+ 
+ 
+ .container2{
+     background-color:var(--pure);
+     width: 1140px;
+     margin : 17px auto;
+     height: 2000px;
+ }
+  .profile{
+
+    background-color:var(--black);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 3 rem;
+    
+    width: 1141px;
+
+   
+
+   
+    height: 203px;
+    
+    clip-path: polygon(0 0 , 100% 0 , 100% 80% , 25% 100% , 0 80%);
+}
+
+.profile .left{
+    
+     flex:2 ;
+     display:flex;
+     justify-content:space-between;
+     align-items: center;
+
+
+}
+
+.profile .left .details{
+    position: relative;
+    right: 272px;
+}
+
+
+
+.profile .left h2{
+    color:var(--pure);
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 85px;
+}
+
+.profile .left li{
+    color: honeydew;
+    font-size:14px;
+    list-style-type: none;
+    text-transform: capitalize;
+    position: relative;
+    left: 44px;
+    
+
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.profile .left img{
+    height: 128px;
+    width:  128px;
+    border-radius:50%;
+    
+    object-fit: cover; 
+    position: relative;
+    right: -52px;
+
+}
+
+.profile .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 14px;
+    
+    width: 358px;
+    height: 112px;
+}
+
+.profile .right .socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 186px;
+    position: relative;
+    right: 65px;
+    bottom: -3px
+}
+
+.profile .socials .s{
+
+ height: 25px;
+ border-radius:10px;
+ object-fit: cover;
+ 
+}
+.profile .socials li:nth-child(2) img{
+
+   border-radius: 30%;
+   width: 35px;
+    
+}
+
+.profile .socials li{
+    list-style-type: none;
+}
+
+.profile .socials a :hover{
+    box-shadow: 1px 1px 2px 2px var(--pure);
+}
+.profile .right .contact{
+        flex:1;
+        list-style-type: none;
+        color:honeydew;
+        font-size: 14px;
+        font-weight: 500;
+        
+        
+
+    
+        display:flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        position: relative;
+        left: -73px;
+
+}
+
+.profile .right .contact i{
+    font-size: 16px;
+    margin-right:0.7rem ;
+}
+
+.profile .right .contact span{
+    margin-left: 18px;
+}
+
+.profile .right .contact .phone1{
+    margin-left: 13px;
+}
+
+.profile .right .address p:nth-child(2){
+
+   margin-left: 101px;
+}
+
+
+
+/* ---------------------------end of profile--------------------------------- */
+ 
+
+
+
+/* ---------------Education css style--------------------------- */
+
+/* making box divide using grid */
+.box1{
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    position: relative; 
+
+    
+
+}
+
+.box1 .left{
+    position: relative;
+    left:50px;
+    top:71px;
+    text-outline: -1px;
+}
+
+/* changing color of icon */
+
+.box1 .left .icon{
+    position: relative;
+    top: -13px;
+    right: -60px;
+    width:100px;
+}
+.box1  .icon i{
+color:var(--black);
+font-size:55px;
+}
+
+.box1  .icon h4{
+    color:var(--dark-blue);
+    font-size:18px;
+
+
+    
+   
+    }
+ .box1 h1{
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--pure);
+    margin-bottom: 0;
+    padding: 17px;
+    text-shadow: 0 0 1px rgba(40 ,54,95,0.1);
+
+}
+
+
+/* making underline style */
+/* .box1 .left:after{
+    content:'';
+    height:-1px;
+    width: 95px;
+    margin-bottom: 4px;
+    margin-left: 27px;
+
+    position: absolute;
+    top:40px;
+    left:30px;
+
+    border:1px solid var(--danger);
+} */
+
+.box1 .left{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction: column;
+    
+}
+.box1 .left .headline{
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.box1  .left .timeline{
+    
+    margin-left: 20px;
+    position: relative;
+    
+    
+
+    
+}
+
+.box1  .left .timeline .circle:after{
+    content:"";
+    
+    position: absolute;
+    left:0;
+    top:5px;
+   
+    border:2px solid black;
+    border-radius: 50%;
+   
+    width: 7px;
+    height: 7px;
+
+    margin-left:-27px;
+
+
+}
+.box1 .left .contanier3{
+    
+  border-left: 2px dotted black;
+  /* border: 2px solid red; */
+  margin-left: 60px;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.box1 .left p{
+    font-size: 14px;
+    color:black;
+
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.box1 .left p{
+   
+    font-weight:500;
+    
+}
+
+.box1 .left .circle p{
+   
+    font-weight:800;
+    font-size: 15px;
+     
+}
+/* 
+if same tag  will be present , if you want to change individual . then is use then you can make use of nth child  */
+.box1 .left p:nth-child(2){
+    color:black;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+/* --------------------------end of left education------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------start of interview  experience--------------------- */
+
+
+
+
+.box1 .right .container4{
+
+    margin-top: 75px;
+    margin-left: 150px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    border-left:2px dotted black;  
+      
+}
+.box1 .right .icon{
+
+    position: relative;
+    top: 57px;
+    right: -151px;
+    width: 300px;
+    align-items: center;
+
+}
+
+.box1 .right .timeline p img{
+
+    height: 60px;
+}
+
+.box1 .right .timeline p{
+    font-size: 14px;
+    color:black;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.box1 .right .timeline{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.box1 .right .timeline p a{
+    font-size: 15px;
+    color:var(--primary);
+    font-weight: 500;
+
+    
+}
+
+.box1 .right .timeline p a:hover{
+    color: var(--danger);
+}
+
+.box1 .right .headline{
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.box1 .right .timeline{
+    
+    margin-left: 20px;
+    position: relative;
+    
+    
+
+    
+}
+
+.box1  .right  .timeline .circle:after{
+    content:"";
+    
+    position: absolute;
+    left:0;
+    top:5px;
+   
+    border:2px solid black;
+    border-radius: 50%;
+   
+    width: 7px;
+    height: 7px;
+
+    margin-left:-27px;
+
+
+}
+
+
+/* timeline1 */
+
+
+.box1 .right .timeline1 p{
+    font-size: 14px;
+    color:var(--primary);
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.box1 .right .timeline1{
+    font-size: 14px;
+    
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.box1 .right .timeline1 p a{
+    font-size: 16px;
+    color: var(--ternary);
+    font-weight: 500;
+    
+}
+
+.box1 .right .timeline1 p a:hover{
+    color: var(--pure);
+}
+
+.box1 .right .headline{
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.box1 .right .timeline1{
+    
+    margin-left: 20px;
+    position: relative;
+    
+    
+
+    
+}
+
+.box1  .right  .timeline1 .circle:after{
+    content:"";
+    
+    position: absolute;
+    left:0;
+    top:5px;
+   
+    border:2px solid black;
+    border-radius: 50%;
+   
+    width: 7px;
+    height: 7px;
+
+    margin-left:-27px;
+
+
+}
+
+
+
+
+/* ------------------end of internship Experience --------------------- */
+
+.box2{
+
+    display: grid;
+
+
+    grid-template-columns: 35% 29% 27%;
+    height: 500px;
+   
+
+    
+}
+
+
+
+
+.box2 h1{
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--pure);
+    position: relative;
+    top: 40px;
+    right: -105px;
+    
+    
+    text-shadow: 0 0 1px rgba(40 ,54,95,0.1);
+
+}
+
+
+/* making underline style */
+.box2 .left .headline :after{
+    content:'';
+    height:-1px;
+    width: 95px;
+    margin-bottom: 4px;
+    margin-left: 27px;
+
+    position: absolute;
+    top: 24px;
+    left: -25px;
+
+    border:1px solid var(--danger);
+}
+
+
+
+
+/* icon part */
+.box2 .left .icon{
+    position: relative;
+    top: 61px;
+    right: -109px;
+    width: 100px
+}
+.box2  .icon i{
+color:var(--black);
+font-size:55px;
+}
+
+/* from here start designing part start */
+
+
+.box2 .icon h4{
+    color:var(--dark-blue);
+    font-size:18px;
+    width: 200px;
+}
+
+.box2  .container5 .pl{
+    color:black;
+    font-weight: 900;
+    font-size: 17px;
+    margin-left:109px;
+    text-transform:capitalize;
+    
+
+
+}
+
+.box2 .container5{
+    height: 269px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    margin-top: 73px;
+    
+    
+
+
+}
+
+
+/* designing bar of programming language */
+
+.box2 .container5  h4{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500; 
+    line-height: 24px;
+    
+}
+
+.box2 .container5  .skill-box{
+    margin-bottom: 1rem;
+    
+    margin-left:109px;
+}
+
+.box2 .container5 .skill_wrapper .skill-box .progress_wrap{
+    
+    background:whitesmoke;
+    height: 6px;
+    width:282px;
+    /* border:2px solid #1a */
+    box-shadow:0px 0px 1px 0.25px #4d79f6;
+    border-radius:2px;
+    border:2px solid black;
+
+}
+
+.box2 .container5 .skill_wrapper .skill-box .progress_wrap .progress_bar{
+    display: block;
+    height: 100%;
+    background: var(--info);
+    width:0;
+    position: relative;
+    transition:all 4s ease-in-out;
+}
+
+/* changing percent */
+.box2 .container5 .skill-box .progress_wrap .progress_bar .tooltip{
+    position: absolute;
+    right:-30px;
+    top:-30px;
+    margin-bottom: 10px;
+    color:var(--ternary);
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+/* ----------end of left programming language -------*/
+
+.box2 .middle .container6{
+    
+
+     
+     
+
+     margin-top: 157px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center; 
+
+   
+} 
+
+.box2 .container6 .pl{
+    color:black;
+    font-weight: 900;
+    font-size: 17px;
+    /* margin-left:109px; */
+    margin-top:24px;
+    text-transform:capitalize;
+
+
+
+}
+
+.box2 .container6 .webdev1{
+
+    font-weight: 500;
+    font-size: 17px;
+    /* margin-left:109px; */
+    margin-top:25px;
+    text-transform:capitalize;
+    position:relative;
+    right: 8px;
+    bottom: 2px;
+}
+  
+.box2 .container6 .webdev{
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+    /* margin-left:109px; */
+    margin-top:13px;
+    text-transform:capitalize;
+    position:relative;
+    right: 49px;
+    bottom: 2px;
+}
+  
+
+
+
+ .container6 .pla{
+    position: relative;
+    right: 25px;
+    color: #1ecab8;
+}
+
+
+
+/* designing bar of programming language */
+
+.box2 .container6  h4{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500; 
+    line-height: 32px;
+    
+}
+
+.box2 .container6  h5{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500; 
+    margin-bottom: 7px;
+    
+}
+
+
+/* .box2 .container6  .skill-box{
+    margin-bottom: 30px;
+
+} */
+
+
+
+.box2 .container6  .skill-box{
+    /* margin-bottom: 1rem;
+    
+    margin-left:109px; */
+}
+
+.box2 .container6 .skill_wrapper .skill-box .progress_wrap{
+    background:whitesmoke;
+    height: 6px;
+    width:282px;
+    /* border:2px solid #1a */
+    box-shadow:0px 0px 1px 0.25px #4d79f6;
+    border-radius:2px;
+    border:2px solid black;
+
+}
+
+.box2 .container6 .skill_wrapper .skill-box .progress_wrap .progress_bar{
+    display: block;
+    height: 100%;
+    background: var(--info);
+    width:0;
+    position: relative;
+    transition:all 1s ease-in-out;
+}
+
+/* changing percent */
+.box2 .container6 .skill-box .progress_wrap .progress_bar .tooltip{
+    position: absolute;
+    right:-30px;
+    top:-30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+/*------------- end of middle part ----------------- */
+
+
+/* start of right part */
+
+.box2 .right .container7{
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 175px
+    
+  
+} 
+.box2  .right .container7 .skill_wrapper{
+    margin-top: 10px;
+}
+.box2 .container7 .pl{
+    color:black;
+    font-weight: 900;
+    font-size: 17px;
+    /* margin-left:109px; */
+    text-transform:capitalize;
+    
+
+}
+
+.box2 .container7 .webdev{
+    color: var(--fade);
+    font-weight: 500;
+    font-size: 17px;
+    /* margin-left:109px; */
+    margin-top:10px;
+    text-transform:capitalize;
+    position:relative;
+    
+    bottom: 2px;
+}
+
+/* designing bar of programming language */
+
+.box2 .container7  h4{
+   color:black;
+   text-transform: uppercase;
+   font-weight: 500; 
+   line-height: 24px;
+}
+   
+
+
+.box2 .container7  .skill-box{
+   margin-bottom: 20px;
+
+}
+
+
+
+.box2 .container7  .skill-box{
+   /* margin-bottom: 1rem;
+   
+   margin-left:109px; */
+}
+
+.box2 .container7 .skill_wrapper .skill-box .progress_wrap{
+   background:whitesmoke;
+   height: 6px;
+   width:282px;
+   /* border:2px solid #1a */
+   box-shadow:0px 0px 1px 0.25px #4d79f6;
+   border-radius:2px;
+   border:2px solid var(--primary);
+
+}
+
+.box2 .container7 .skill_wrapper .skill-box .progress_wrap .progress_bar{
+   display: block;
+   height: 100%;
+   background: var(--info);
+   width:0;
+   position: relative;
+   transition:all 1s ease-in-out;
+}
+
+/* changing percent */
+.box2 .container7 .skill-box .progress_wrap .progress_bar .tooltip{
+   position: absolute;
+   right:-30px;
+   top:-30px;
+   margin-bottom: 10px;
+   color:var(--ternary);
+   font-size: 16px;
+   text-transform: uppercase;
+
+}
+
+/* -----------------  end of technical skill -------------- */
+
+.box3{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+}
+
+
+.box3 h1{
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--pure);
+    position: relative;
+    top: 40px;
+    right: -69px;
+    
+    
+    text-shadow: 0 0 1px rgba(40 ,54,95,0.1);
+
+}
+
+
+/* making underline style */
+.box3 .left .headline :after{
+    content:'';
+    height:-1px;
+    width: 95px;
+    margin-bottom: 4px;
+    margin-left: 27px;
+
+    position: absolute;
+    top: 24px;
+    left: -25px;
+
+    border:1px solid var(--danger);
+}
+
+.box3 .left .icon{
+
+    position: relative;
+    top: 52px;
+    right: -108px;
+    width: 300px;
+}
+
+
+.box3 .left .icon i{
+color:var(--black);
+font-size:55px;
+}
+
+.box3 .left .icon h4{
+    color:var(--dark-blue);
+    font-size:18px;
+    text-transform: capitalize;
+
+}
+
+ .box3  .left .container8{
+    
+    
+    position: relative;
+    top: 77px;
+    right: -111px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 529px;
+     
+    border-left: 2px dotted black;     
+      
+    
+
+}
+.box3 .left .timeline .website{
+    margin-top: 20px;
+}
+.box3 .left .timeline p{
+    font-size: 14px;
+    color:black;
+    line-height: 23px;
+    font-weight: 500;
+    text-transform:capitalize;
+    
+
+}
+
+
+.box3 .left .timeline p a{
+    color:black;;
+    font-weight: 500;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.box3 .left .timeline p a:hover{
+    color:red;
+}
+
+
+.box3 .left .headline{
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.box3 .left .timeline{
+    
+    margin-left: 20px;
+    position: relative;
+    
+    
+
+    
+}
+.box3 .left .timeline .circle {
+    color:black;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+.box3 .left  .timeline .circle:after{
+    content:"";
+    
+    position: absolute;
+    left:0;
+    top:5px;
+   
+    border:2px solid black;
+    border-radius: 50%;
+   
+    width: 7px;
+    height: 7px;
+
+    margin-left:-27px;
+
+
+} 
+
+
+/* -------------------------- end of projects--------------------- */
+
+.box3 .right .icon{
+
+    position: relative;
+    top: 69px;
+    right: -70px;
+    width: 300px;
+}
+
+
+.box3 .right .icon i{
+color:var(--black);
+font-size:55px;
+}
+
+.box3 .right .icon h4{
+    color:var(--dark-blue);
+    font-size:18px;
+    text-transform: capitalize;
+
+}
+
+.box3   .container9{
+    
+
+    position: relative;
+    top: 92px;
+    right: -70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     width: 529px;
+     
+    border-left: 2px dotted black;     
+      
+    
+
+}
+
+
+ 
+.box3 .right .timeline p{
+    font-size: 14px;
+    color:black;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+
+} 
+
+
+.box3 .right .headline{
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.box3 .right .timeline{
+    
+    margin-left: 20px;
+    position: relative;
+    
+    
+
+    
+}
+
+.box3 .right  .certificate a{
+    color:black;
+}
+
+.box3 .right  .certificate a:hover{
+    color: red;
+}
+
+
+.box3  .right .timeline .circle{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box3  .right .timeline .circle:after{
+    content:"";
+    
+    position: absolute;
+    left:0;
+    top:5px;
+   
+    border:2px solid black;
+    border-radius: 50%;
+   
+    width: 7px;
+    height: 7px;
+
+    margin-left:-27px;
+
+
+}  
+
+
